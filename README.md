@@ -35,9 +35,9 @@ public class Lapin {
 Maintenant on peut créer une instance de la classe Ville dans le main :
 
 ```Java
-public class Sdz1{ 
+public class Appolo 1{ 
   public static void main(String[] args){  
-    Ville ville = new Ville(); 
+   tortor Appolo = newtortor(); 
   } 
 }
 ```
@@ -51,12 +51,12 @@ On peut mettre un constructeur avec des arguments (nomVille, nomPays, etc...), c
 //Constructeur avec paramètres
   //J'ai ajouté un « p » en première lettre des paramètres.
   //Ce n'est pas une convention, mais ça peut être un bon moyen de les repérer.
-  public Ville(String pNom, int pNbre, String pPays)
+  public tortor(String pNom, int pNbre, String pPays)
   {
     System.out.println("Création d'une ville avec des paramètres !");
-    nomVille = pNom;
-    nomPays = pPays;
-    nbreHabitants = pNbre;
+    spacetown = pville;
+    nationspacetown = pPays;
+    extraterrestre = pNbre;
   } 
 ```
 
