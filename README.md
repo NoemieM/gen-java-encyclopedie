@@ -12,21 +12,21 @@
 ### Classes et héritage
 Créer une classe :
 ```java
-public class Ville {
+public class Lapin {
 
-  //Stocke le nom de notre ville
-  String nomVille;
-  //Stocke le nom du pays de notre ville
-  String nomPays;
-  //Stocke le nombre d'habitants de notre ville
-  int nbreHabitants;
+  //Stocke le nom de notre lapin
+  String nomLapin;
+  //Stocke la race du lapin
+  String raceLapin;
+  //Stocke le nombre de lapin dans la maison
+  int nbreLapins;
 
   //Constructeur par défaut
-  public Ville(){
-    System.out.println("Création d'une ville !");          
-    nomVille = "Inconnu";
-    nomPays = "Inconnu";
-    nbreHabitants = 0;
+  public Lapin(){
+    System.out.println("Création d'un lapin !");          
+    nomLapin = "Inconnu";
+    raceLapin = "Inconnu";
+    nbreLapins = 0;
   }
   
          
@@ -62,7 +62,7 @@ On peut mettre un constructeur avec des arguments (nomVille, nomPays, etc...), c
 
 
 
-<p style="text-align: right">Source de l'exemple : OpenClassRoom</p>
+<p style="text-align: right">Source de l'exemple : Modifié de OpenClassRoom</p>
 
 ### Visibilité des objets, classes et attributs
 
